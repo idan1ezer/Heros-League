@@ -97,7 +97,7 @@ class GameView: UIViewController {
     }
     
     func checkGameOver() -> Bool {
-        if (score1 >= 5 || score2 >= 5) {
+        if (round == 15) {
             return true
         }
         else {
@@ -107,13 +107,13 @@ class GameView: UIViewController {
     
     func gameOver() {
         if (score1 > score2) {
-            
+            panel_LBL_round.text = "The winner is \(self.player1)"
         }
         else if (score2 > score1) {
-            
+            panel_LBL_round.text = "The winner is \(self.player2)"
         }
         else {
-            
+            panel_LBL_round.text = "Tie game!"
         }
         
     }
