@@ -116,6 +116,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="C5N-81-fCy" firstAttribute="leading" secondItem="EGg-aQ-Ceh" secondAttribute="trailing" constant="90" id="2lU-cO-Thf"/>
+                            <constraint firstItem="zpn-tA-oUi" firstAttribute="centerX" secondItem="32B-IZ-Pr1" secondAttribute="centerX" id="6ZD-5k-ntO"/>
                             <constraint firstItem="EGg-aQ-Ceh" firstAttribute="top" secondItem="zpn-tA-oUi" secondAttribute="bottom" constant="60" id="6gF-0R-ISN"/>
                             <constraint firstItem="CzH-f9-sIp" firstAttribute="top" secondItem="SAH-di-Iqk" secondAttribute="top" constant="80" id="DzK-sX-4Bz"/>
                             <constraint firstItem="QhN-Nb-rIV" firstAttribute="top" secondItem="JR0-wH-LxK" secondAttribute="bottom" constant="10" id="GKo-x1-lSs"/>
